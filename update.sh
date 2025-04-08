@@ -14,7 +14,7 @@ cp -r ../lib .
 npm install tailwindcss-animate class-variance-authority clsx tailwind-merge lucide-react
 
 # Make shadcn install all components
-npx shadcn@latest add accordion alert alert-dialog aspect-ratio avatar badge breadcrumb button calendar card carousel chart checkbox collapsible command context-menu table dialog drawer dropdown-menu form hover-card input input-otp label menubar navigation-menu pagination popover progress radio-group resizable scroll-area select separator sheet sidebar skeleton slider sonner switch table tabs textarea toast toggle toggle-group tooltip
+npx shadcn@2.3.0 add accordion alert alert-dialog aspect-ratio avatar badge breadcrumb button card carousel chart checkbox collapsible command context-menu table dialog drawer dropdown-menu form hover-card input input-otp label menubar navigation-menu pagination popover progress radio-group resizable scroll-area select separator sheet sidebar skeleton slider sonner switch table tabs textarea toast toggle toggle-group tooltip
 
 # Move components out of the ui folder for simplicity
 mv components/ui ./comp
